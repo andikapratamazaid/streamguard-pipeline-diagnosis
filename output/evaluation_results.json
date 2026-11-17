@@ -1,0 +1,70 @@
+{
+  "incidents_evaluated": 384,
+  "overall_correct": 380,
+  "overall_accuracy": 0.9896,
+  "mean_confidence": 0.8134,
+  "per_category": {
+    "Streaming Pipeline Failure": {
+      "total": 110,
+      "correct": 109,
+      "accuracy": 0.9909
+    },
+    "Cluster Health Degradation": {
+      "total": 75,
+      "correct": 75,
+      "accuracy": 1.0
+    },
+    "Indexing Performance Bottleneck": {
+      "total": 70,
+      "correct": 69,
+      "accuracy": 0.9857
+    },
+    "Data Ingestion Failure": {
+      "total": 89,
+      "correct": 88,
+      "accuracy": 0.9888
+    },
+    "Configuration Error": {
+      "total": 40,
+      "correct": 39,
+      "accuracy": 0.975
+    }
+  },
+  "confusion": {
+    "Streaming Pipeline Failure": {
+      "Streaming Pipeline Failure": 109,
+      "Cluster Health Degradation": 0,
+      "Indexing Performance Bottleneck": 0,
+      "Data Ingestion Failure": 1,
+      "Configuration Error": 0
+    },
+    "Cluster Health Degradation": {
+      "Streaming Pipeline Failure": 0,
+      "Cluster Health Degradation": 75,
+      "Indexing Performance Bottleneck": 0,
+      "Data Ingestion Failure": 0,
+      "Configuration Error": 0
+    },
+    "Indexing Performance Bottleneck": {
+      "Streaming Pipeline Failure": 0,
+      "Cluster Health Degradation": 1,
+      "Indexing Performance Bottleneck": 69,
+      "Data Ingestion Failure": 0,
+      "Configuration Error": 0
+    },
+    "Data Ingestion Failure": {
+      "Streaming Pipeline Failure": 0,
+      "Cluster Health Degradation": 1,
+      "Indexing Performance Bottleneck": 0,
+      "Data Ingestion Failure": 88,
+      "Configuration Error": 0
+    },
+    "Configuration Error": {
+      "Streaming Pipeline Failure": 0,
+      "Cluster Health Degradation": 0,
+      "Indexing Performance Bottleneck": 0,
+      "Data Ingestion Failure": 1,
+      "Configuration Error": 39
+    }
+  }
+}
